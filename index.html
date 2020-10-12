@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DeoJS</title>
+    </head>
+    <body>
+        <div id="header">
+            <h1>DeoJS</h1>
+        </div>
+        <div id="workPane">
+            <div id="opPane">
+                <div class="paneHeader" id="opPaneHeader">
+                    <h2>Operations</h2>
+                    <label class="form-check-label" for="debugOpsCheckbox" id="debugOpsCheckboxLabel">Debug</label>
+                    <input type="checkbox" class="form-check-input" id="debugOpsCheckbox">
+                </div>
+                <ul id="operationsList">
+                </ul>
+            </div>
+            <div id="ioPane">
+                <div id="flowPane">
+                    <div class="paneHeader" id="flowPaneHeader">
+                        <h2>Flow</h2>
+                        <button type="button" id="runFlowButton" class="btn btn-outline-success btn-sm">Run</button>
+                    </div>
+                    <div id="flowContainer">
+                        <div id="inputContainer" class="flowItem">
+                            <h3>Input</h3>
+                            <div id="inputErrorAlert" class="alert alert-danger hidden" role="alert">
+                                <span id="inputErrorText"></span>
+                                <button id="inputErrorAlertClose" type="button" class="close" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div>
+                                Input File: <span id="inputFileName"></span>&nbsp;<button id="inputFileButton" type="button" class="btn btn-outline-primary">Open</button>
+                                <div class="progress" id="inputProgress" style="display: none;">
+                                    <div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <ul id="inputFileHashes" style="display: none">
+                                    <li id="inputFileMd5"></li>
+                                    <li id="inputFileSha1"></li>
+                                    <li id="inputFileSha256"></li>
+                                </ul>
+                            </div>
+                            <div id="inputScanContainer">
+                                VirusTotal: <span id="inputScanStatus"></span>&nbsp;<button id="inputScanButton" type="button" class="btn btn-outline-primary">Scan with VirusTotal</button>
+                            </div>
+                            <input type="file" id="inputFileSelector">
+                        </div>
+                        <ul id="flowList">
+                        </ul>
+                    </div>
+                </div>
+                <div id="outputPane">
+                    <div class="paneHeader" id="outputPaneHeader">
+                        <h2>Output</h2>
+                    </div>
+                    <pre id="outputArea">
+                    </pre>
+                </div>
+            </div>
+        </div>
+    <script type="text/javascript" src="main.js"></script></body>
+</html>
