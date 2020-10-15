@@ -181,7 +181,7 @@ eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../.
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \"#workPane {\\n    height: calc(100vh - 25px);\\n    width: calc(100vw);\\n}\\n\\n.hidden {\\n    display: none;\\n}\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/web/css/main.css?./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src");
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \"#header {\\n    /* height: 25px; */\\n    background-color: #E1F5FE;\\n    border-bottom: 1px solid #BDBDBD;\\n    text-align: center;\\n    padding-top: 2px;\\n    padding-bottom: 2px;\\n}\\n\\n#header h1 {\\n    margin: 0;\\n    font-size: 1.2em;\\n    color: black;\\n}\\n\\n#workPane {\\n    height: calc(100vh - 25px);\\n    width: calc(100vw);\\n}\\n\\n.hidden {\\n    display: none;\\n}\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/web/css/main.css?./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src");
 
 /***/ }),
 
