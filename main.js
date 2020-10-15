@@ -170,7 +170,7 @@ eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../.
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \"#operationsList,\\n#flowList {\\n    list-style-type: none;\\n    padding: 0;\\n    width: 100%;\\n    min-height: 200px;\\n}\\n\\n#operationsList li {\\n    border-bottom: 1px solid #B3E5FC;\\n    padding: 8px;\\n    background-color: #E1F5FE;\\n}\\n\\n#operationsList {\\n    min-height: 90vh\\n}\\n\\n#operationsList li:hover,\\n#flowList li:hover {\\n    cursor: pointer;\\n}\\n\\n.flowItem {\\n    margin-left: 15%;\\n    margin-right: 15%;\\n    margin-top: 5px;\\n    margin-bottom: 5px;\\n    width: 70%;\\n    background-color: #E1F5FE;\\n    border: 1px solid #B3E5FC;\\n    padding: 10px;\\n    box-shadow: 2px 2px 2px #DDDDDD;\\n}\\n\\n#inputContainer {\\n    margin-top: 5px;\\n    min-height: 250px;\\n}\\n\\n#inputProgress {\\n    height: 2em;\\n    margin-top: 5px;\\n    margin-bottom: 5px;\\n}\\n\\n#inputScanContainer {\\n    margin-top: 3px;\\n}\\n\\n#inputFileHashes {\\n    margin-top: 3px;\\n}\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/web/css/lists.css?./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src");
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \"#operationsList,\\n#flowList {\\n    list-style-type: none;\\n    padding: 0;\\n    width: 100%;\\n    min-height: 200px;\\n}\\n\\n#operationsList li {\\n    border-bottom: 1px solid #3b9aff;\\n    padding: 8px;\\n    background-color: #E1F5FE;\\n}\\n\\n#operationsList {\\n    min-height: 90vh\\n}\\n\\n#operationsList li:hover,\\n#flowList li:hover {\\n    cursor: pointer;\\n}\\n\\n.flowItem {\\n    margin-left: 15%;\\n    margin-right: 15%;\\n    margin-top: 5px;\\n    margin-bottom: 5px;\\n    width: 70%;\\n    background-color: #E1F5FE;\\n    border: 1px solid #3b9aff;\\n    padding: 10px;\\n    box-shadow: 2px 2px 2px #DADADA;\\n    border-radius: 3px;\\n}\\n\\n#inputContainer {\\n    margin-top: 5px;\\n    min-height: 250px;\\n}\\n\\n#inputProgress {\\n    height: 2em;\\n    margin-top: 5px;\\n    margin-bottom: 5px;\\n}\\n\\n#inputScanContainer {\\n    margin-top: 3px;\\n}\\n\\n#inputFileHashes {\\n    margin-top: 3px;\\n}\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/web/css/lists.css?./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src");
 
 /***/ }),
 
@@ -559,7 +559,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var boot
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = function() {\n  return new Worker(__webpack_require__.p + \"429a274d860d48c17cce.worker.js\");\n};\n\n//# sourceURL=webpack:///./src/web/js/workers/App.worker.js?");
+eval("module.exports = function() {\n  return new Worker(__webpack_require__.p + \"9033070a726e631b24c3.worker.js\");\n};\n\n//# sourceURL=webpack:///./src/web/js/workers/App.worker.js?");
 
 /***/ }),
 
